@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "691f538563ac6695008ddc51b7722c80",
+    "content-hash": "71432042c029de1b03117d89ccc720b4",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -444,7 +444,59 @@
             "time": "2026-10-09T01:12:31+00:00"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "webman/skills",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webman-php/skills.git",
+                "reference": "18c74d922f8e94d7ca130f24028d7ab191c97b30"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webman-php/skills/zipball/18c74d922f8e94d7ca130f24028d7ab191c97b30",
+                "reference": "18c74d922f8e94d7ca130f24028d7ab191c97b30",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "bin": [
+                "bin/webman-skills"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Webman\\Skills\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Webman Team",
+                    "homepage": "https://www.workerman.net"
+                }
+            ],
+            "description": "Agent Skills for developing, reviewing, debugging, testing, and deploying Webman applications.",
+            "homepage": "https://github.com/webman-php/skills",
+            "keywords": [
+                "agent-skills",
+                "claude-code",
+                "codex",
+                "webman",
+                "workerman"
+            ],
+            "support": {
+                "issues": "https://github.com/webman-php/skills/issues",
+                "source": "https://github.com/webman-php/skills"
+            },
+            "time": "2026-08-31T01:47:27+00:00"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {},

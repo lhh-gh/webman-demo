@@ -11,7 +11,7 @@ license: MIT (see LICENSE)
 ## 仓库与运行环境
 
 - 本技能位于仓库根目录 `.agents/skills/composer-health-check/`，操作范围限于该仓库。
-- 先读取适用的 `AGENTS.md` 和 Git 状态，保留已有改动。用户指定的项目路径优先；否则当前仓库默认检查 `webman/composer.json` 及同目录的 `composer.lock`。
+- 先读取适用的 `AGENTS.md` 和 Git 状态，保留已有改动。用户指定的项目路径优先；否则当前仓库默认检查根目录的 `composer.json` 和 `composer.lock`。
 - 若目录结构改变，用 `rg --files -g composer.json -g composer.lock -g '!**/vendor/**'` 定位项目；多个项目只在范围无法判断时询问。
 - 若仓库根目录存在 `.codegraph/`，理解或定位源码前先使用 `codegraph_explore` 或 `codegraph explore`；不存在则跳过，不创建索引。
 - 确认 PHP、Composer 的实际版本与运行位置。Windows 访问 WSL 项目时，优先使用该项目已有的 WSL PHP/Composer 环境，明确工作目录，不混用两端的 `vendor/`。

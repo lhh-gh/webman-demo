@@ -1,0 +1,7 @@
+{
+    "package": "webman/skills",
+    "version": "1.0.0",
+    "skill": "webman-development",
+    "agent": "claude-code",
+    "installed_at": "2026-10-26T01:50:37+00:00"
+}

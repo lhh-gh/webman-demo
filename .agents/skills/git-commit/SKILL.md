@@ -10,7 +10,7 @@ license: MIT (see LICENSE)
 
 ## 检查状态与范围
 
-1. 本技能作用于包含 `.agents/skills/git-commit/` 的当前仓库。读取适用的 `AGENTS.md`，确认仓库根目录和分支。Git 根目录与 Composer 子项目目录可能不同。
+1. 本技能作用于包含 `.agents/skills/git-commit/` 的当前仓库。读取适用的 `AGENTS.md`，确认仓库根目录和分支；当前仓库的 Git 根目录与 Composer 应用目录相同。
 2. 获取以下只读信息；必要时补充受影响文件的上下文：
 
    ```text
