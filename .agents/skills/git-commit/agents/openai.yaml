@@ -1,0 +1,4 @@
+interface:
+  display_name: "中文 Git 提交"
+  short_description: "审阅所选 Git 改动，生成英文类型与中文描述的规范提交信息"
+  default_prompt: "使用 $git-commit 审阅本次改动并生成中文提交信息，先不提交。"

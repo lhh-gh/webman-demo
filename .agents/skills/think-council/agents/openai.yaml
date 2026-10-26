@@ -1,0 +1,4 @@
+interface:
+  display_name: "多视角讨论团"
+  short_description: "从互补视角评估当前仓库的复杂方案，梳理假设、分歧与下一步"
+  default_prompt: "使用 $think-council 从多个视角评估当前方案，给出依据、主要分歧和下一步建议。"
